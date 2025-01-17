@@ -1,21 +1,170 @@
-
-(footprint CAPC1005X55N (layer F.Cu) (tedit 6789C871)
-  (descr "")
-  (attr smd)
-  (fp_text reference REF** (at 0.3 -0.88 0) (layer F.SilkS)
-    (effects (font (size 0.393700787402 0.393700787402) (thickness 0.15)))
-  )
-  (fp_text value CAPC1005X55N (at 2.05 0.88 0) (layer F.Fab)
-    (effects (font (size 0.393700787402 0.393700787402) (thickness 0.15)))
-  )
-  (pad 1 smd rect (at -0.452 0.0) (size 0.5 0.6) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad 2 smd rect (at 0.452 0.0) (size 0.5 0.6) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (fp_line (start 0.5 0.25) (end -0.5 0.25) (layer F.Fab) (width 0.127))
-  (fp_line (start 0.5 -0.25) (end -0.5 -0.25) (layer F.Fab) (width 0.127))
-  (fp_line (start 0.5 0.25) (end 0.5 -0.25) (layer F.Fab) (width 0.127))
-  (fp_line (start -0.5 0.25) (end -0.5 -0.25) (layer F.Fab) (width 0.127))
-  (fp_line (start -0.95 0.55) (end 0.95 0.55) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -0.95 -0.55) (end 0.95 -0.55) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -0.95 0.55) (end -0.95 -0.55) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 0.95 0.55) (end 0.95 -0.55) (layer F.CrtYd) (width 0.05))
+(footprint "0402ferritebead"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.3 -0.88 0)
+		(layer "F.SilkS")
+		(uuid "9cb50fc7-bfa3-4a16-8c9b-1c11fdde9c00")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Value" "CAPC1005X55N"
+		(at 2.05 0.88 0)
+		(layer "F.Fab")
+		(uuid "9de5cf6e-2fd5-483a-b5fa-009f0153c927")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13993b12-0e77-48f9-8239-36f9fbd39f29")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83f96830-55d5-404e-b4a3-1796fc221e6c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "864501c0-1a5d-4786-bdcf-99e576ac798c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.95 -0.55)
+		(end 0.95 -0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8a422a06-6e1b-43af-a63b-402abb9e99d8")
+	)
+	(fp_line
+		(start -0.95 0.55)
+		(end -0.95 -0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2ef3f008-26ae-4e9d-8c85-8281c0121c96")
+	)
+	(fp_line
+		(start -0.95 0.55)
+		(end 0.95 0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b6c79051-3c32-4ce8-a1aa-e903990ee60a")
+	)
+	(fp_line
+		(start 0.95 0.55)
+		(end 0.95 -0.55)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dfd2dadd-946f-452e-b091-1fb340263ddf")
+	)
+	(fp_line
+		(start -0.5 0.25)
+		(end -0.5 -0.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cdea8b2c-e705-48e5-99c8-3e130955f1cc")
+	)
+	(fp_line
+		(start 0.5 -0.25)
+		(end -0.5 -0.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "db965bbf-925e-451b-8af6-4c0b69ece76e")
+	)
+	(fp_line
+		(start 0.5 0.25)
+		(end -0.5 0.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4c6fe51e-ff56-408d-bc2c-4579bbd33ab7")
+	)
+	(fp_line
+		(start 0.5 0.25)
+		(end 0.5 -0.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "442addb8-6855-4c71-a0fc-1680c3b933d8")
+	)
+	(pad "1" smd rect
+		(at -0.452 0)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "b836b19b-b3ce-4ce9-a478-91a2ee1b778b")
+	)
+	(pad "2" smd rect
+		(at 0.452 0)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "b5560a4c-c3d6-49b8-a63e-6a13c6190cbe")
+	)
+	(model "${KIPRJMOD}/symbols/ferrite/BLM15BA100SZ1D.STEP"
+		(offset
+			(xyz 0 -0.27 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

@@ -1,21 +1,170 @@
-
-(footprint RES_ERJ2RKF5101X (layer F.Cu) (tedit 6789B816)
-  (descr "")
-  (attr smd)
-  (fp_text reference REF** (at 1.032 -1.1564 0) (layer F.SilkS)
-    (effects (font (size 0.64 0.64) (thickness 0.15)))
-  )
-  (fp_text value RES_ERJ2RKF5101X (at 5.5024 1.1564 0) (layer F.Fab)
-    (effects (font (size 0.64 0.64) (thickness 0.15)))
-  )
-  (pad 1 smd rect (at -0.512 0.0) (size 0.475 0.5) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad 2 smd rect (at 0.512 0.0) (size 0.475 0.5) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (fp_line (start -0.5 -0.25) (end -0.5 0.25) (layer F.Fab) (width 0.127))
-  (fp_line (start 0.5 -0.25) (end 0.5 0.25) (layer F.Fab) (width 0.127))
-  (fp_line (start -0.5 -0.25) (end 0.5 -0.25) (layer F.Fab) (width 0.127))
-  (fp_line (start -0.5 0.25) (end 0.5 0.25) (layer F.Fab) (width 0.127))
-  (fp_line (start -1.0 -0.5) (end -1.0 0.5) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.0 0.5) (end 1.0 0.5) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.0 0.5) (end 1.0 -0.5) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.0 -0.5) (end -1.0 -0.5) (layer F.CrtYd) (width 0.05))
+(footprint "RES_ERJ2RKF5101X"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.032 -1.1564 0)
+		(layer "F.SilkS")
+		(uuid "439a4066-82a4-4f17-85fa-6abde13f65bb")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RES_ERJ2RKF5101X"
+		(at 5.5024 1.1564 0)
+		(layer "F.Fab")
+		(uuid "dd719bdf-1726-4503-ae67-5e6bdd6ccadb")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77636f86-9e76-4cdd-9114-534aab6746cc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8df13c53-01c5-4fd2-8ce5-9ab9869bf21d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1ad9b9b-2eb4-4430-8bc5-bab62a9fae74")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 -0.5)
+		(end -1 0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "231a0183-ff18-452e-9030-0f9935db522d")
+	)
+	(fp_line
+		(start -1 0.5)
+		(end 1 0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dfe78372-3cb4-453b-b027-e90402b5dc5e")
+	)
+	(fp_line
+		(start 1 -0.5)
+		(end -1 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0d47e0a9-86aa-4cac-9cd6-d4a193db5b17")
+	)
+	(fp_line
+		(start 1 0.5)
+		(end 1 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b3443770-e47f-400a-8798-5f572b50ab92")
+	)
+	(fp_line
+		(start -0.5 -0.25)
+		(end -0.5 0.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0fbb18e7-db59-4889-abbc-c437f7cc0239")
+	)
+	(fp_line
+		(start -0.5 -0.25)
+		(end 0.5 -0.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "defa3655-951f-475a-8952-c4e74188f07c")
+	)
+	(fp_line
+		(start -0.5 0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2e08bb72-d48d-4a66-a100-2cc17958d79f")
+	)
+	(fp_line
+		(start 0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "91ac5c13-1259-4cde-9fd2-2d92746289d3")
+	)
+	(pad "1" smd rect
+		(at -0.512 0)
+		(size 0.475 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "021d968a-fdcb-432b-9f24-75be0273841c")
+	)
+	(pad "2" smd rect
+		(at 0.512 0)
+		(size 0.475 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "14280423-7e43-435d-bb98-fb34f79c8e7f")
+	)
+	(model "${KIPRJMOD}/symbols/5-1-ohm-resistor/ERJ2RKF5101X.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

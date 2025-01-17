@@ -600,7 +600,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "ed3723ba-cb9f-4147-ad69-0b4afe3ef700")
 	)
-	(model "${KIPRJMOD}/symbol libraries/motor_driver/TL062CPSR.step"
+	(model "${KIPRJMOD}/symbols/motor_driver/TL062CPSR.step"
 		(offset
 			(xyz 0 0 0)
 		)

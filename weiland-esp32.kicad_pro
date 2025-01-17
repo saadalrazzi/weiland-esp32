@@ -469,7 +469,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../../Downloads/weiland-esp32-v3.step",
       "svg": "",
       "vrml": ""
     },

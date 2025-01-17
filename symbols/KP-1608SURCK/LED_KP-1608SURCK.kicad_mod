@@ -1,23 +1,192 @@
-
-(footprint LED_KP-1608SURCK (layer F.Cu) (tedit 6789B6B7)
-  (descr "")
-  (attr smd)
-  (fp_text reference REF** (at 0.557 -1.3564 0) (layer F.SilkS)
-    (effects (font (size 0.64 0.64) (thickness 0.15)))
-  )
-  (fp_text value LED_KP-1608SURCK (at 5.0274 1.3564 0) (layer F.Fab)
-    (effects (font (size 0.64 0.64) (thickness 0.15)))
-  )
-  (pad 1 smd rect (at 0.825 0.0) (size 0.8 0.8) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (pad 2 smd rect (at -0.825 0.0) (size 0.8 0.8) (layers F.Cu F.Mask F.Paste) (solder_mask_margin 0.102))
-  (fp_line (start 0.8 0.4) (end -0.8 0.4) (layer F.Fab) (width 0.127))
-  (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.127))
-  (fp_line (start -0.8 -0.4) (end 0.8 -0.4) (layer F.Fab) (width 0.127))
-  (fp_line (start 0.8 -0.4) (end 0.8 0.4) (layer F.Fab) (width 0.127))
-  (fp_line (start 1.475 0.65) (end 1.475 -0.65) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.475 -0.65) (end -1.475 -0.65) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.475 -0.65) (end -1.475 0.65) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.475 0.65) (end 1.475 0.65) (layer F.CrtYd) (width 0.05))
-  (fp_circle (center -2.225 0.0) (end -2.125 0.0) (layer F.SilkS) (width 0.2))
-  (fp_circle (center -2.225 0.0) (end -2.125 0.0) (layer F.Fab) (width 0.2))
+(footprint "LED_KP-1608SURCK"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.557 -1.3564 0)
+		(layer "F.SilkS")
+		(uuid "43cbab35-e3fa-4043-beb8-7340f86fe7af")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_KP-1608SURCK"
+		(at 5.0274 1.3564 0)
+		(layer "F.Fab")
+		(uuid "bb6587c4-d036-4a12-97ac-58df1b83b8c8")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7dad8882-d0f2-4ef4-a499-e49ea19e956c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2fc254dd-82e0-4431-9452-35da5b2aa1ae")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a411507e-c0bd-4982-b562-87c9d63fe83d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -2.225 0)
+		(end -2.125 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "3add00be-c656-41d6-b212-71e3edb91693")
+	)
+	(fp_line
+		(start -1.475 -0.65)
+		(end -1.475 0.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e2ba3a3e-1a67-4ec5-a887-13115ca0a859")
+	)
+	(fp_line
+		(start -1.475 0.65)
+		(end 1.475 0.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d0c9556c-8eb6-49a1-9102-1cf5b5800bbb")
+	)
+	(fp_line
+		(start 1.475 -0.65)
+		(end -1.475 -0.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eb8ad42b-0db6-4b93-a93b-93ca4bbceb0d")
+	)
+	(fp_line
+		(start 1.475 0.65)
+		(end 1.475 -0.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ba7b61c4-28ca-4687-a200-4eafc2133481")
+	)
+	(fp_line
+		(start -0.8 -0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b0330107-5db7-4aea-b950-195e6a86d1fa")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end -0.8 -0.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5e63ea55-6621-442f-b8f3-827d078a88fc")
+	)
+	(fp_line
+		(start 0.8 -0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b8b463b1-45ea-4dcb-a0fb-3979c4ca27a0")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end -0.8 0.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a4f3ab48-3184-4cd9-a81c-c2580bf7b148")
+	)
+	(fp_circle
+		(center -2.225 0)
+		(end -2.125 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "952ea0ed-6e25-4947-afd5-a57aebebc7a1")
+	)
+	(pad "1" smd rect
+		(at 0.825 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "6d7933ca-0544-4f29-9323-d7fd9ede960a")
+	)
+	(pad "2" smd rect
+		(at -0.825 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "f66484ed-60af-4741-aa61-85f18157f2a2")
+	)
+	(model "${KIPRJMOD}/symbols/KP-1608SURCK/KP-1608SURCK.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
