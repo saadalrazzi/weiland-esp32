@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "GR6205-SOP-8")(type "KiCad")(uri "${KIPRJMOD}/symbols/motor_driver/GR6205-SOP-8.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX98357AEWL_T")(type "KiCad")(uri "${KIPRJMOD}/symbols/audio amp/MAX98357AEWL_T/MAX98357AEWL_T.kicad_sym")(options "")(descr ""))
+)
