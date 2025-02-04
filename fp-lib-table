@@ -14,4 +14,5 @@
   (lib (name "ferrite")(type "KiCad")(uri "${KIPRJMOD}/symbols/ferrite")(options "")(descr ""))
   (lib (name "MAX98357AEWL_T")(type "KiCad")(uri "${KIPRJMOD}/symbols/audio amp/MAX98357AEWL_T")(options "")(descr ""))
   (lib (name "motor_driver")(type "KiCad")(uri "${KIPRJMOD}/symbols/motor_driver")(options "")(descr ""))
+  (lib (name "customlibrary")(type "KiCad")(uri "${KIPRJMOD}/symbols/customlibrary.pretty")(options "")(descr ""))
 )
