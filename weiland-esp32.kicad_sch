@@ -5384,7 +5384,7 @@
 		)
 		(uuid "5bcd79ff-5fdb-4d69-bdc7-37a82b87e42a")
 	)
-	(text "Custom ESP32\n"
+	(text "ESP32 Custom Board"
 		(exclude_from_sim no)
 		(at 165.1 8.4836 0)
 		(effects

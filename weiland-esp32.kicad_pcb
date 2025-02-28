@@ -131,7 +131,7 @@
 		(uuid "0141d61a-7983-4466-b3e3-d4c4490a2e79")
 		(at 136.5 112.5)
 		(property "Reference" "C6"
-			(at -0.21 -1.05 360)
+			(at -0.21 -1.05 0)
 			(layer "F.SilkS")
 			(uuid "dd270a44-ea05-4df0-8e07-df946a75d50d")
 			(effects
@@ -142,7 +142,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 1.54 1.05 360)
+			(at 1.54 1.05 0)
 			(layer "F.Fab")
 			(uuid "6a02fac4-0768-4c99-ae5a-e0dbf950bc3e")
 			(effects
@@ -153,7 +153,7 @@
 			)
 		)
 		(property "Footprint" "10 uF capacitor:CAPC1608X90N"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2dd631bb-e8d3-465e-9d9c-61df79714f7a")
@@ -165,7 +165,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1771c82a-17d3-4efb-b1ff-b1b9082b3b55")
@@ -177,7 +177,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c1b53885-44ed-4bc0-8298-7a8e8a25222e")
@@ -330,7 +330,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 1.036662 0.854076 360)
+			(at 1.036662 0.854076 0)
 			(layer "F.Fab")
 			(uuid "4c2790ce-77ad-449c-88d4-85c7bf8aab55")
 			(effects
@@ -341,7 +341,7 @@
 			)
 		)
 		(property "Footprint" "100 nF Capacitor:CAPC1005X55N"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "87dec392-d89e-4e3c-9968-ff3214e6b584")
@@ -353,7 +353,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3a28c965-2de8-45b4-a4f0-3a3d6b451f8f")
@@ -365,7 +365,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cffd3fd0-6d3a-44c5-b623-7f343ed3204f")
@@ -1044,7 +1044,7 @@
 		(descr "Soldered wire connection, for 5 times 0.75 mm² wires, basic insulation, conductor diameter 1.25mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-E 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.75sqmm")
 		(property "Reference" "J2"
-			(at 9.6 -2.47 360)
+			(at 9.6 -2.47 0)
 			(layer "F.SilkS")
 			(uuid "5130e678-af1a-481b-9b34-4d60fe43e7ad")
 			(effects
@@ -1055,7 +1055,7 @@
 			)
 		)
 		(property "Value" "Conn_01x05_Pin"
-			(at 10.6 2.47 360)
+			(at 10.6 2.47 0)
 			(layer "F.Fab")
 			(uuid "120c3572-fbd7-46cb-a9f6-72aa4225410b")
 			(effects
@@ -1365,7 +1365,7 @@
 			(uuid "561c1391-3da5-42d0-ab4a-82c56820a482")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 10.35 0 360)
+			(at 10.35 0 0)
 			(layer "F.Fab")
 			(uuid "dba06d0d-10cb-42d8-8646-be455437657b")
 			(effects
@@ -4390,7 +4390,7 @@
 		(descr "Soldered wire connection, for 4 times 0.75 mm² wires, basic insulation, conductor diameter 1.25mm, outer diameter 2.3mm, size source Multi-Contact FLEXI-E 0.75 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 0.75sqmm")
 		(property "Reference" "J1"
-			(at 7.2 -2.47 360)
+			(at 7.2 -2.47 0)
 			(layer "F.SilkS")
 			(uuid "99b0b9f2-731e-4e53-9252-4a7f100c1799")
 			(effects
@@ -4401,7 +4401,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 7.2 2.47 360)
+			(at 7.2 2.47 0)
 			(layer "F.Fab")
 			(uuid "1380b012-41ed-4f13-b2fd-df95bef7cbe2")
 			(effects
@@ -5172,7 +5172,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 1.54 1.05 360)
+			(at 1.54 1.05 0)
 			(layer "F.Fab")
 			(uuid "7d2469c9-4dad-47d3-93b8-467394c2d1a6")
 			(effects
@@ -5183,7 +5183,7 @@
 			)
 		)
 		(property "Footprint" "10 uF capacitor:CAPC1608X90N"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b077fd35-8c47-4fab-9baa-3e8c8b82a7ae")
@@ -5195,7 +5195,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8846b011-bc0e-4eae-a659-5c6fcb58586c")
@@ -5207,7 +5207,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fd8d4987-d460-481b-bca1-acf79c732545")
