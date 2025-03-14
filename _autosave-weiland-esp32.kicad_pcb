@@ -1040,7 +1040,7 @@
 	(footprint "footprints:CONN2_S02B-PASK-2_JST"
 		(layer "F.Cu")
 		(uuid "3f40212b-435e-4018-9ce7-6ad278e240d6")
-		(at 131.299999 78.9)
+		(at 129.899999 78.9)
 		(tags "S02B-PASK-2 ")
 		(property "Reference" "J4"
 			(at 1 0 0)
@@ -3209,7 +3209,7 @@
 	(footprint "footprints:CONN2_S02B-PASK-2_JST"
 		(layer "F.Cu")
 		(uuid "63dfb620-8171-4011-9330-3d73ea209e1e")
-		(at 145.399999 119.6 180)
+		(at 145.1951 119.654699 180)
 		(tags "S02B-PASK-2 ")
 		(property "Reference" "J1"
 			(at 1 0 180)
@@ -3478,7 +3478,7 @@
 	(footprint "footprints:CONN2_S02B-PASK-2_JST"
 		(layer "F.Cu")
 		(uuid "8930275f-00ad-467f-9833-546eae756310")
-		(at 142.099999 78.9)
+		(at 143.199999 78.9)
 		(tags "S02B-PASK-2 ")
 		(property "Reference" "J7"
 			(at 1 0 0)
@@ -5439,7 +5439,7 @@
 	(footprint "footprints:CONN2_S02B-PASK-2_JST"
 		(layer "F.Cu")
 		(uuid "d6bf095e-32ef-4029-b2cd-5a593c0058a2")
-		(at 138.6 119.6 180)
+		(at 138.4951 119.654699 180)
 		(tags "S02B-PASK-2 ")
 		(property "Reference" "J3"
 			(at 1 0 180)

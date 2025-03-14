@@ -1,4 +1,4 @@
-24436970286491418
+24442196061639051
 5-1-ohm-resistor
 RES_ERJ2RKF5101X
 
@@ -98664,6 +98664,13 @@ connector wire 0.75sqmm
 0
 5
 5
+dc3-6p
+dc3-6p
+
+
+0
+6
+6
 esp32
 ESP32-WROOM-32E
 ESP32-WROOM-32E and ESP32-WROOM-32UE: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf
@@ -98685,6 +98692,20 @@ BEADC3216X180N
 0
 2
 2
+footprints
+CONN2_S02B-PASK-2_JST
+
+S02B-PASK-2 
+0
+2
+2
+jst2p-smt
+CONN_SM02B-PASS_JST
+
+SM02B-PASS-TBTLFSN 
+0
+4
+4
 motor_driver
 SOP127P780X200-8N
 

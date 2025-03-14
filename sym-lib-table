@@ -2,4 +2,7 @@
   (version 7)
   (lib (name "GR6205-SOP-8")(type "KiCad")(uri "${KIPRJMOD}/symbols/motor_driver/GR6205-SOP-8.kicad_sym")(options "")(descr ""))
   (lib (name "MAX98357AEWL_T")(type "KiCad")(uri "${KIPRJMOD}/symbols/audio amp/MAX98357AEWL_T/MAX98357AEWL_T.kicad_sym")(options "")(descr ""))
+  (lib (name "jst2pin")(type "KiCad")(uri "${KIPRJMOD}/symbols/jst_2pin/jst2pin.kicad_sym")(options "")(descr ""))
+  (lib (name "jst2p-smt")(type "KiCad")(uri "${KIPRJMOD}/symbols/jst-2p-smt/schema&footprint/KiCADv6/jst2p-smt.kicad_sym")(options "")(descr ""))
+  (lib (name "dc3-6p")(type "KiCad")(uri "${KIPRJMOD}/symbols/dc3-6p/schema&footprint/dc3-6p.kicad_sym")(options "")(descr ""))
 )

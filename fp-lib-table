@@ -15,4 +15,7 @@
   (lib (name "MAX98357AEWL_T")(type "KiCad")(uri "${KIPRJMOD}/symbols/audio amp/MAX98357AEWL_T")(options "")(descr ""))
   (lib (name "motor_driver")(type "KiCad")(uri "${KIPRJMOD}/symbols/motor_driver")(options "")(descr ""))
   (lib (name "customlibrary")(type "KiCad")(uri "${KIPRJMOD}/symbols/customlibrary.pretty")(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/symbols/jst_2pin/OG folder w schematic & footprint/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "jst2p-smt")(type "KiCad")(uri "${KIPRJMOD}/symbols/jst-2p-smt/schema&footprint/KiCADv6/jst2p-smt.pretty")(options "")(descr ""))
+  (lib (name "dc3-6p")(type "KiCad")(uri "${KIPRJMOD}/symbols/dc3-6p/schema&footprint")(options "")(descr ""))
 )
