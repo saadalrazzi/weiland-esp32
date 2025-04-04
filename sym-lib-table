@@ -5,4 +5,7 @@
   (lib (name "jst2pin")(type "KiCad")(uri "${KIPRJMOD}/symbols/jst_2pin/jst2pin.kicad_sym")(options "")(descr ""))
   (lib (name "jst2p-smt")(type "KiCad")(uri "${KIPRJMOD}/symbols/jst-2p-smt/schema&footprint/KiCADv6/jst2p-smt.kicad_sym")(options "")(descr ""))
   (lib (name "dc3-6p")(type "KiCad")(uri "${KIPRJMOD}/symbols/dc3-6p/schema&footprint/dc3-6p.kicad_sym")(options "")(descr ""))
+  (lib (name "ULN2003")(type "KiCad")(uri "${KIPRJMOD}/symbols/darlington transistor array/ULN2003F12FN_7/KiCADv6/ULN2003.kicad_sym")(options "")(descr ""))
+  (lib (name "S04B-PASK-2")(type "KiCad")(uri "${KIPRJMOD}/symbols/jst-4pin/S04B-PASK-2_LF__SN_/S04B-PASK-2.kicad_sym")(options "")(descr ""))
+  (lib (name "unshroudedheader")(type "KiCad")(uri "${KIPRJMOD}/symbols/UnshroudedHeader/unshroudedheader.kicad_sym")(options "")(descr ""))
 )
