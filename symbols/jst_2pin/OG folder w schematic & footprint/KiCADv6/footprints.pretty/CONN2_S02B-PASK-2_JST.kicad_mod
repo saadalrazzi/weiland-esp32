@@ -246,7 +246,7 @@
 		(remove_unused_layers no)
 		(uuid "300a4c60-748c-4b88-9930-25b4ebe27b1e")
 	)
-	(model "${KIPRJMOD}/symbols/jst_2pin/S02B-PASK-2--3DModel-STEP-272129.STEP"
+	(model "${KIPRJMOD}/symbols/jst_2pin/S02B-PASK-2--3DModel-STEP-272129_white.step"
 		(offset
 			(xyz -2 8.2 0)
 		)
