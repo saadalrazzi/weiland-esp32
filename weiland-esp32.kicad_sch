@@ -4649,6 +4649,12 @@
 		)
 	)
 	(junction
+		(at 81.28 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1227d5c2-7077-4cd8-9f7d-453161ae3fc1")
+	)
+	(junction
 		(at 199.39 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4659,12 +4665,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "347a40a8-8b24-4ed2-9dc6-0780e3dad436")
-	)
-	(junction
-		(at 63.5 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4083ed67-9958-4aeb-bc42-141519667857")
 	)
 	(junction
 		(at 102.87 125.73)
@@ -4719,6 +4719,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4f28106-64a4-4cef-a6e1-ac523042ddda")
+	)
+	(junction
+		(at 58.42 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4b08154-5e18-4633-90fa-0e13081247c9")
 	)
 	(junction
 		(at 95.25 77.47)
@@ -4910,16 +4916,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 156.21) (xy 45.72 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a97a9e9-87ad-469a-ab88-7c854b12a369")
-	)
-	(wire
-		(pts
 			(xy 163.83 165.1) (xy 163.83 167.64)
 		)
 		(stroke
@@ -4967,6 +4963,16 @@
 			(type default)
 		)
 		(uuid "407cccd3-7eed-4a25-9ff5-1246ce0ff303")
+	)
+	(wire
+		(pts
+			(xy 58.42 125.73) (xy 58.42 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4687d144-6943-4467-9440-01adfa5b21e5")
 	)
 	(wire
 		(pts
@@ -5120,6 +5126,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 118.11) (xy 81.28 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72323cfc-e955-4377-9834-155e8fbc9323")
+	)
+	(wire
+		(pts
 			(xy 90.17 80.01) (xy 90.17 88.9)
 		)
 		(stroke
@@ -5147,16 +5163,6 @@
 			(type default)
 		)
 		(uuid "75fd20a6-4b8b-4b78-9a6d-1fbcf4fbf5e1")
-	)
-	(wire
-		(pts
-			(xy 96.52 158.75) (xy 116.84 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "802a67c3-1b53-480e-a38e-e9c39f2ac259")
 	)
 	(wire
 		(pts
@@ -5220,26 +5226,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 125.73) (xy 102.87 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c18aaad-8dc8-4134-ae5f-716b1046a993")
-	)
-	(wire
-		(pts
-			(xy 96.52 163.83) (xy 116.84 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c1e6425-6a3e-4da0-878e-2200be683965")
-	)
-	(wire
-		(pts
 			(xy 69.85 44.45) (xy 76.2 44.45)
 		)
 		(stroke
@@ -5250,7 +5236,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 125.73) (xy 63.5 161.29)
+			(xy 58.42 125.73) (xy 58.42 161.29)
 		)
 		(stroke
 			(width 0)
@@ -5267,16 +5253,6 @@
 			(type default)
 		)
 		(uuid "b10a1ed5-2900-45e4-baa7-2ab93fa4aaff")
-	)
-	(wire
-		(pts
-			(xy 63.5 161.29) (xy 63.5 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b48b996d-7a92-47a5-aa59-4c73b3cfd8bf")
 	)
 	(wire
 		(pts
@@ -5350,16 +5326,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 130.81) (xy 45.72 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0336532-080f-40ce-95ad-7e793b56b974")
-	)
-	(wire
-		(pts
 			(xy 180.34 149.86) (xy 180.34 152.4)
 		)
 		(stroke
@@ -5380,7 +5346,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 125.73) (xy 63.5 125.73)
+			(xy 66.04 125.73) (xy 58.42 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5400,6 +5366,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 125.73) (xy 102.87 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccceeaf4-0ff9-4d07-8a5f-6f9ad2cc25a5")
+	)
+	(wire
+		(pts
 			(xy 276.86 60.96) (xy 317.5 60.96)
 		)
 		(stroke
@@ -5410,13 +5386,13 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 153.67) (xy 116.84 153.67)
+			(xy 58.42 161.29) (xy 66.04 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf4e549b-a90f-4833-b94f-2fdd96f306fb")
+		(uuid "cf24882b-08b6-4d9d-aff7-1bc432d447a1")
 	)
 	(wire
 		(pts
@@ -5530,16 +5506,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 176.53) (xy 99.06 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9288575-0665-414a-b667-4962dde8d42a")
-	)
-	(wire
-		(pts
 			(xy 38.1 138.43) (xy 38.1 140.97)
 		)
 		(stroke
@@ -5570,16 +5536,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 151.13) (xy 116.84 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f57e71bb-fd7c-4a12-8eb1-95bf568edbc2")
-	)
-	(wire
-		(pts
 			(xy 276.86 78.74) (xy 276.86 81.28)
 		)
 		(stroke
@@ -5587,16 +5543,6 @@
 			(type default)
 		)
 		(uuid "f5adeeaf-0925-4162-91ca-3b3cd25b5a8d")
-	)
-	(wire
-		(pts
-			(xy 66.04 161.29) (xy 63.5 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f89d6677-8c16-495d-ac8c-6b5e5cd7417a")
 	)
 	(wire
 		(pts
@@ -5806,6 +5752,17 @@
 		)
 		(uuid "2275f9b8-fd3c-4432-ad2c-457ab4e0d25f")
 	)
+	(label "PRE-OUTP"
+		(at 339.09 163.83 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "24bf1d5f-2136-4fe3-bf1c-e340d23ec618")
+	)
 	(label "IO15"
 		(at 241.3 58.42 180)
 		(fields_autoplaced yes)
@@ -5851,24 +5808,24 @@
 		(uuid "40e8c283-982b-493d-8e0a-abee3eda430e")
 	)
 	(label "IO16"
-		(at 114.3 153.67 180)
+		(at 96.52 153.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "4356e665-989c-4216-8b90-956568fdc4c4")
 	)
 	(label "IO14"
-		(at 49.53 156.21 0)
+		(at 66.04 156.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "45d32aab-5eda-4bf8-9a2a-eb3df16978c4")
 	)
@@ -5895,13 +5852,13 @@
 		(uuid "51dbb6fc-4961-40d7-8448-1bca4618ebff")
 	)
 	(label "IO17"
-		(at 114.3 151.13 180)
+		(at 96.52 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "592ae55d-897c-4e61-a984-d574513cb88d")
 	)
@@ -5917,7 +5874,7 @@
 		(uuid "5f665553-009b-41e7-95da-6e4b3b76e995")
 	)
 	(label "IO0"
-		(at 110.49 158.75 0)
+		(at 96.52 158.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6158,6 +6115,17 @@
 		)
 		(uuid "d1923760-ddb8-48dc-b7fa-591c2f6d8a55")
 	)
+	(label "PRE-OUTN"
+		(at 317.5 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d90835d0-10c5-40ec-9b81-96287573ff4f")
+	)
 	(label "IO17"
 		(at 368.3 138.43 270)
 		(fields_autoplaced yes)
@@ -6168,6 +6136,28 @@
 			(justify right)
 		)
 		(uuid "dcae88e8-49c3-4c7b-97d5-237ac6b4140f")
+	)
+	(label "PRE-OUTN"
+		(at 354.33 163.83 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e03b3d8b-c7be-447e-bac5-ffbc797dac75")
+	)
+	(label "PRE-OUTP"
+		(at 293.37 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e07f0b50-4cc4-4330-a534-14d6816257d9")
 	)
 	(label "OUTC"
 		(at 76.2 46.99 180)
@@ -6192,24 +6182,24 @@
 		(uuid "ed19262b-29f7-4ed7-a319-fd6854c2a0cf")
 	)
 	(label "EN"
-		(at 45.72 130.81 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "edb306cc-5daf-4ba8-8887-4142ef89c5d8")
-	)
-	(label "IO15"
-		(at 116.84 163.83 180)
+		(at 66.04 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
+		)
+		(uuid "edb306cc-5daf-4ba8-8887-4142ef89c5d8")
+	)
+	(label "IO15"
+		(at 96.52 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
 		)
 		(uuid "f3937f86-e45d-4240-94bd-2078d9726ee4")
 	)
@@ -6226,16 +6216,16 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 368.3 138.43 0)
+		(at 339.09 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0262b9bf-82a5-4325-835c-a81345252c04")
-		(property "Reference" "TP6"
-			(at 370.84 133.8579 0)
+		(uuid "010200fc-1380-44f7-b4c8-87f9faf799ec")
+		(property "Reference" "IO19"
+			(at 341.63 133.8579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6244,7 +6234,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 370.84 136.3979 0)
+			(at 341.63 136.3979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6252,8 +6242,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 373.38 138.43 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 344.17 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6262,7 +6252,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 373.38 138.43 0)
+			(at 344.17 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6271,7 +6261,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 368.3 138.43 0)
+			(at 339.09 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6280,12 +6270,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2e684bb1-d540-4c98-9036-89f9b75e60e5")
+			(uuid "433e847c-7b82-4526-a5e7-95480a771689")
 		)
 		(instances
 			(project "weiland-esp32"
 				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
-					(reference "TP6")
+					(reference "IO19")
 					(unit 1)
 				)
 			)
@@ -6485,72 +6475,6 @@
 			(project "weiland-esp32"
 				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 63.5 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "142e81cb-ae8f-4eaf-b6e7-52838d7e1ef9")
-		(property "Reference" "#PWR019"
-			(at 63.5 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 63.5 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e2ffb686-c5d5-46a9-861d-371b8f80132e")
-		)
-		(instances
-			(project "weiland-esp32"
-				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6964,6 +6888,73 @@
 			(project "weiland-esp32"
 				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 354.33 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27ecc5f2-a3ea-4ee0-9349-87a29f0b54e6")
+		(property "Reference" "IO22"
+			(at 356.87 146.5579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 356.87 149.0979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 359.41 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 359.41 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 354.33 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6e060d2-5dd6-476f-b63a-59583b42b40d")
+		)
+		(instances
+			(project "weiland-esp32"
+				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
+					(reference "IO22")
 					(unit 1)
 				)
 			)
@@ -7585,6 +7576,140 @@
 				(path "/a1dc64ca-b54e-4a93-b40f-f15a664195f8"
 					(reference "LED1")
 					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 383.54 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45c3e7db-f2a1-41e0-8c50-2c11c49714c2")
+		(property "Reference" "IO16"
+			(at 386.08 133.8579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 386.08 136.3979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 388.62 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 388.62 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 383.54 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93f8f6a7-62d0-4289-8d7e-78872f9a2a60")
+		)
+		(instances
+			(project "weiland-esp32"
+				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
+					(reference "IO16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 353.06 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c852450-4cc0-4209-8d11-d202d0c4864f")
+		(property "Reference" "IO18"
+			(at 355.6 133.8579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 355.6 136.3979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 358.14 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 358.14 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 353.06 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "21641d22-fb67-4d46-aa40-9cbc691870d5")
+		)
+		(instances
+			(project "weiland-esp32"
+				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
+					(reference "IO18")
+					(unit 1)
 				)
 			)
 		)
@@ -8280,16 +8405,16 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 353.06 138.43 0)
+		(at 368.3 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6581df21-2ee1-45f6-87a5-e495502be424")
-		(property "Reference" "TP5"
-			(at 355.6 133.8579 0)
+		(uuid "66a38867-271c-4f08-bbde-707f8ff26837")
+		(property "Reference" "IO17"
+			(at 370.84 133.8579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8298,7 +8423,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 355.6 136.3979 0)
+			(at 370.84 136.3979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8306,8 +8431,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 358.14 138.43 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 373.38 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8316,7 +8441,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 358.14 138.43 0)
+			(at 373.38 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8325,7 +8450,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 353.06 138.43 0)
+			(at 368.3 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8334,12 +8459,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "5d58fdc3-09f7-449e-8b7d-1b582dbbaed7")
+			(uuid "0af5676c-cd70-40ea-9c70-497e13573ed6")
 		)
 		(instances
 			(project "weiland-esp32"
 				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
-					(reference "TP5")
+					(reference "IO17")
 					(unit 1)
 				)
 			)
@@ -8620,72 +8745,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 339.09 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "76e3413b-27ee-40ec-bea4-3272a915cac6")
-		(property "Reference" "TP4"
-			(at 341.63 133.8579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 341.63 136.3979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 344.17 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 344.17 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 339.09 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "49b32d6b-2221-4a8e-b121-31b0a3ce7aea")
-		)
-		(instances
-			(project "weiland-esp32"
-				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 12.7 154.94 0)
 		(unit 1)
@@ -8958,6 +9017,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 339.09 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89d75a09-a034-4506-8555-ee68f45fcb47")
+		(property "Reference" "3.3V1"
+			(at 341.63 121.1579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 341.63 123.6979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 344.17 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 344.17 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 339.09 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2df0eac-d695-44dd-8513-2b0f9f4fa2d0")
+		)
+		(instances
+			(project ""
+				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
+					(reference "3.3V1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 12.7 140.97 0)
 		(unit 1)
@@ -9022,73 +9148,6 @@
 			(project ""
 				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 383.54 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ad5afb2-38f2-4106-83e4-42438bdd4c60")
-		(property "Reference" "TP7"
-			(at 386.08 133.8579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 386.08 136.3979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 388.62 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 388.62 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 383.54 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "52471087-ba3d-4d66-994e-c833f0235f6d")
-		)
-		(instances
-			(project "weiland-esp32"
-				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
-					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -9425,6 +9484,207 @@
 			(project ""
 				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 368.3 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a101acda-b516-4066-9ae2-272a7277836e")
+		(property "Reference" "IO14"
+			(at 370.84 146.5579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 370.84 149.0979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 373.38 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 373.38 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 368.3 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a93f6c5-ea19-46ae-bf0f-f0d644a453d1")
+		)
+		(instances
+			(project "weiland-esp32"
+				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
+					(reference "IO14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 354.33 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a143c03f-803e-4180-92ef-5b7b44a5a421")
+		(property "Reference" "OUTN1"
+			(at 356.87 159.2579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 356.87 161.7979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 359.41 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 359.41 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 354.33 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "261f1d6b-e47c-4bcf-b661-a020ec397abe")
+		)
+		(instances
+			(project "weiland-esp32"
+				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
+					(reference "OUTN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 339.09 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a262b5e8-4c03-48d9-b481-776503f18e20")
+		(property "Reference" "IO15"
+			(at 341.63 146.5579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 341.63 149.0979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 344.17 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 344.17 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 339.09 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98bc9df7-e1bf-48f4-b7fb-551c33b67a3e")
+		)
+		(instances
+			(project "weiland-esp32"
+				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
+					(reference "IO15")
 					(unit 1)
 				)
 			)
@@ -10096,73 +10356,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 354.33 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c04ea3de-e562-43c0-9539-a2bf3d260223")
-		(property "Reference" "TP13"
-			(at 356.87 146.5579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 356.87 149.0979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 359.41 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 359.41 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 354.33 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4edb8b8b-6c2c-42c5-a402-e34a09085e91")
-		)
-		(instances
-			(project "weiland-esp32"
-				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
-					(reference "TP13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 328.93 92.71 90)
 		(unit 1)
@@ -10414,7 +10607,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 176.53 0)
+		(at 106.68 125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10423,7 +10616,7 @@
 		(fields_autoplaced yes)
 		(uuid "dcc606fa-6dfd-41e9-aeb4-06d94faa7fab")
 		(property "Reference" "#PWR018"
-			(at 99.06 182.88 0)
+			(at 113.03 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10432,15 +10625,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.06 181.61 0)
+			(at 110.49 125.7299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 176.53 0)
+			(at 106.68 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10449,7 +10643,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 176.53 0)
+			(at 106.68 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10458,7 +10652,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 176.53 0)
+			(at 106.68 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10606,73 +10800,6 @@
 			(project "weiland-esp32"
 				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 339.09 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df2bf542-03c2-4818-934e-c6f024c6bd3f")
-		(property "Reference" "TP12"
-			(at 341.63 146.5579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 341.63 149.0979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 344.17 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 344.17 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 339.09 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c9d1251-1853-4fa7-aa28-801353e37a2e")
-		)
-		(instances
-			(project "weiland-esp32"
-				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
-					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -10980,16 +11107,16 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 339.09 125.73 0)
+		(at 339.09 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e6861444-7368-4b01-b7f7-ac92735958e4")
-		(property "Reference" "TP2"
-			(at 341.63 121.1579 0)
+		(uuid "f12a10ce-8039-4727-94ea-85a8e5bcd2eb")
+		(property "Reference" "OUTP1"
+			(at 341.63 159.2579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10998,7 +11125,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 341.63 123.6979 0)
+			(at 341.63 161.7979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11006,8 +11133,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 344.17 125.73 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 344.17 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11016,7 +11143,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 344.17 125.73 0)
+			(at 344.17 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11025,7 +11152,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 339.09 125.73 0)
+			(at 339.09 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11034,12 +11161,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "634dc1ae-1e0c-42ed-94ca-fbb336983ae9")
+			(uuid "1fd074cd-d2ff-40d9-b8d8-ff1ed3b91582")
 		)
 		(instances
 			(project "weiland-esp32"
 				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
-					(reference "TP2")
+					(reference "OUTP1")
 					(unit 1)
 				)
 			)
@@ -11268,73 +11395,6 @@
 			(project ""
 				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
 					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 368.3 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ff8f75d4-b10d-43ec-a54c-280b941ffb6b")
-		(property "Reference" "TP14"
-			(at 370.84 146.5579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 370.84 149.0979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 373.38 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 373.38 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 368.3 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61a32f0b-60c2-4480-a593-71e7b64ba378")
-		)
-		(instances
-			(project "weiland-esp32"
-				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
-					(reference "TP14")
 					(unit 1)
 				)
 			)
