@@ -23,4 +23,5 @@
   (lib (name "MAX98357AETE_T")(type "KiCad")(uri "${KIPRJMOD}/symbols/audio amp-larger/MAX98357AETE_T")(options "")(descr ""))
   (lib (name "100ohm-resistor")(type "KiCad")(uri "${KIPRJMOD}/symbols/100ohm-resistor")(options "")(descr ""))
   (lib (name "unshroudedheader")(type "KiCad")(uri "${KIPRJMOD}/symbols/UnshroudedHeader/unshroudedheader")(options "")(descr ""))
+  (lib (name "easyeda2kicad")(type "KiCad")(uri "C:/Users/alruz/Documents/KiCad/easyeda2kicad/easyeda2kicad.pretty")(options "")(descr ""))
 )
