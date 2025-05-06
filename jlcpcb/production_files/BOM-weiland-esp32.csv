@@ -15,12 +15,12 @@ AMS1117-3.3_C347222,U2,SOT229P700X180-4N,C6186,1
 ESP32-WROOM-32E(8MB),U1,ESP32-WROOM-32E,C701341,1
 0805G (Green),LED1,LED_KP-1608SURCK,C84256,1
 MAX98357AETE_T,U3,QFN50P300X300X80-17N,C910544,1
-TestPoint,IO19,TestPoint_Pad_D1.0mm,,1
-TestPoint,IO14,TestPoint_Pad_D1.0mm,,1
-TestPoint,IO15,TestPoint_Pad_D1.0mm,,1
-TestPoint,OUTP1,TestPoint_Pad_D1.0mm,,1
-TestPoint,IO16,TestPoint_Pad_D1.0mm,,1
-TestPoint,IO22,TestPoint_Pad_D1.0mm,,1
-TestPoint,IO18,TestPoint_Pad_D1.0mm,,1
-TestPoint,OUTN1,TestPoint_Pad_D1.0mm,,1
-TestPoint,IO17,TestPoint_Pad_D1.0mm,,1
+TestPoint,I19,TestPoint_Pad_D1.0mm,,1
+TestPoint,I14,TestPoint_Pad_D1.0mm,,1
+TestPoint,I15,TestPoint_Pad_D1.0mm,,1
+TestPoint,I16,TestPoint_Pad_D1.0mm,,1
+TestPoint,I22,TestPoint_Pad_D1.0mm,,1
+TestPoint,I18,TestPoint_Pad_D1.0mm,,1
+TestPoint,N1,TestPoint_Pad_D1.0mm,,1
+TestPoint,V3,TestPoint_Pad_D1.0mm,,1
+TestPoint,I17,TestPoint_Pad_D1.0mm,,1

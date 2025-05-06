@@ -5944,17 +5944,6 @@
 		)
 		(uuid "592ae55d-897c-4e61-a984-d574513cb88d")
 	)
-	(label "OUTB"
-		(at 77.47 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5f665553-009b-41e7-95da-6e4b3b76e995")
-	)
 	(label "IO0"
 		(at 96.52 158.75 0)
 		(fields_autoplaced yes)
@@ -5976,6 +5965,17 @@
 			(justify left bottom)
 		)
 		(uuid "65436588-1427-4256-baed-3155ae25820a")
+	)
+	(label "OUTA"
+		(at 77.47 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "66f6d31a-a892-476a-bdfa-e2661931dc03")
 	)
 	(label "IO22"
 		(at 354.33 151.13 270)
@@ -6032,7 +6032,7 @@
 		)
 		(uuid "895d6aea-b0fa-4f5a-beb2-457a7f052aed")
 	)
-	(label "OUTA"
+	(label "OUTB"
 		(at 77.47 60.96 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6041,7 +6041,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "91d3a68d-3203-44e8-906b-0ad23091d150")
+		(uuid "9b889856-2f91-4c75-9565-3b5179a8b61c")
 	)
 	(label "OUTC"
 		(at 199.39 64.77 0)
@@ -6306,7 +6306,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "010200fc-1380-44f7-b4c8-87f9faf799ec")
-		(property "Reference" "IO19"
+		(property "Reference" "I19"
 			(at 341.63 133.8579 0)
 			(effects
 				(font
@@ -6357,7 +6357,7 @@
 		(instances
 			(project "weiland-esp32"
 				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
-					(reference "IO19")
+					(reference "I19")
 					(unit 1)
 				)
 			)
@@ -7049,7 +7049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27ecc5f2-a3ea-4ee0-9349-87a29f0b54e6")
-		(property "Reference" "IO22"
+		(property "Reference" "I22"
 			(at 356.87 146.5579 0)
 			(effects
 				(font
@@ -7100,7 +7100,7 @@
 		(instances
 			(project "weiland-esp32"
 				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
-					(reference "IO22")
+					(reference "I22")
 					(unit 1)
 				)
 			)
@@ -7331,6 +7331,70 @@
 			(project "weiland-esp32"
 				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 372.11 194.31 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3202e64a-cb7d-47f6-8445-f2513d27fa78")
+		(property "Reference" "H4"
+			(at 374.65 193.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 374.65 195.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 372.11 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 372.11 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 372.11 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "weiland-esp32"
+				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -7736,7 +7800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45c3e7db-f2a1-41e0-8c50-2c11c49714c2")
-		(property "Reference" "IO16"
+		(property "Reference" "I16"
 			(at 386.08 133.8579 0)
 			(effects
 				(font
@@ -7787,7 +7851,7 @@
 		(instances
 			(project "weiland-esp32"
 				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
-					(reference "IO16")
+					(reference "I16")
 					(unit 1)
 				)
 			)
@@ -7803,7 +7867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c852450-4cc0-4209-8d11-d202d0c4864f")
-		(property "Reference" "IO18"
+		(property "Reference" "I18"
 			(at 355.6 133.8579 0)
 			(effects
 				(font
@@ -7854,7 +7918,7 @@
 		(instances
 			(project "weiland-esp32"
 				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
-					(reference "IO18")
+					(reference "I18")
 					(unit 1)
 				)
 			)
@@ -8559,7 +8623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66a38867-271c-4f08-bbde-707f8ff26837")
-		(property "Reference" "IO17"
+		(property "Reference" "I17"
 			(at 370.84 133.8579 0)
 			(effects
 				(font
@@ -8610,7 +8674,7 @@
 		(instances
 			(project "weiland-esp32"
 				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
-					(reference "IO17")
+					(reference "I17")
 					(unit 1)
 				)
 			)
@@ -9172,7 +9236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89d75a09-a034-4506-8555-ee68f45fcb47")
-		(property "Reference" "3.3V1"
+		(property "Reference" "V3"
 			(at 341.63 121.1579 0)
 			(effects
 				(font
@@ -9223,7 +9287,7 @@
 		(instances
 			(project ""
 				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
-					(reference "3.3V1")
+					(reference "V3")
 					(unit 1)
 				)
 			)
@@ -9645,7 +9709,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a101acda-b516-4066-9ae2-272a7277836e")
-		(property "Reference" "IO14"
+		(property "Reference" "I14"
 			(at 370.84 146.5579 0)
 			(effects
 				(font
@@ -9696,7 +9760,7 @@
 		(instances
 			(project "weiland-esp32"
 				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
-					(reference "IO14")
+					(reference "I14")
 					(unit 1)
 				)
 			)
@@ -9712,7 +9776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a143c03f-803e-4180-92ef-5b7b44a5a421")
-		(property "Reference" "OUTN1"
+		(property "Reference" "N1"
 			(at 356.87 159.2579 0)
 			(effects
 				(font
@@ -9763,7 +9827,7 @@
 		(instances
 			(project "weiland-esp32"
 				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
-					(reference "OUTN1")
+					(reference "N1")
 					(unit 1)
 				)
 			)
@@ -9779,7 +9843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a262b5e8-4c03-48d9-b481-776503f18e20")
-		(property "Reference" "IO15"
+		(property "Reference" "I15"
 			(at 341.63 146.5579 0)
 			(effects
 				(font
@@ -9830,7 +9894,7 @@
 		(instances
 			(project "weiland-esp32"
 				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
-					(reference "IO15")
+					(reference "I15")
 					(unit 1)
 				)
 			)
@@ -10633,6 +10697,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 372.11 187.96 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7380ef0-2572-421a-94d3-a016f4e84856")
+		(property "Reference" "H3"
+			(at 374.65 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 374.65 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 372.11 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 372.11 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 372.11 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "weiland-esp32"
+				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CL05B104KO5NNNC_1")
 		(at 38.1 134.62 0)
 		(unit 1)
@@ -11325,7 +11453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f12a10ce-8039-4727-94ea-85a8e5bcd2eb")
-		(property "Reference" "OUTP1"
+		(property "Reference" "P+1"
 			(at 341.63 159.2579 0)
 			(effects
 				(font
@@ -11376,7 +11504,7 @@
 		(instances
 			(project "weiland-esp32"
 				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
-					(reference "OUTP1")
+					(reference "P+1")
 					(unit 1)
 				)
 			)
