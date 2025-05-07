@@ -1,4 +1,4 @@
-24457888426320742
+24464875055062035
 5-1-ohm-resistor
 RES_ERJ2RKF5101X
 
@@ -98714,6 +98714,27 @@ dc3-6p
 6
 6
 easyeda2kicad
+CONN-SMD_2P-P1.00_SM02B-SRSS-TB-LF-SN
+
+
+0
+4
+4
+easyeda2kicad
+CONN-SMD_4P-P1.00_SM04B-SRSS-TB-LF-SN
+
+
+0
+6
+6
+easyeda2kicad
+CONN-SMD_SM05B-SRSS-TB-LF-SN
+
+
+0
+7
+7
+easyeda2kicad
 HDR-SMD_6P-P1.27-V-M-R2-C3-S1.27-LS5.5-1
 
 
@@ -98727,6 +98748,13 @@ USB-C-SMD_GT-USB-7100A
 0
 10
 10
+easyeda2kicad
+USB-C-SMD_TYPE-C-6PIN-2MD-073
+
+
+0
+18
+14
 esp32
 ESP32-WROOM-32E
 ESP32-WROOM-32E and ESP32-WROOM-32UE: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf
