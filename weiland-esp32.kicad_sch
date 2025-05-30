@@ -5053,6 +5053,10 @@
 		(uuid "63f8e692-c205-4e6e-8c2b-25fadbbc9c92")
 	)
 	(no_connect
+		(at 95.25 35.56)
+		(uuid "6645f765-4e7a-4c9e-b37a-7dbc160d7f97")
+	)
+	(no_connect
 		(at 96.52 171.45)
 		(uuid "66c1f6f5-0147-4b78-9679-4929d7b9f197")
 	)
@@ -5989,17 +5993,6 @@
 		)
 		(uuid "00d275d1-540d-4bc7-ab62-028ea4cd1012")
 	)
-	(label "OUTB"
-		(at 129.54 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "02545ebd-4445-4b4a-897f-36e20f259457")
-	)
 	(label "OUTD"
 		(at 215.9 64.77 0)
 		(fields_autoplaced yes)
@@ -6010,17 +6003,6 @@
 			(justify left bottom)
 		)
 		(uuid "05310c32-77c2-4ced-a6f6-9d14cbb17a27")
-	)
-	(label "OUTA"
-		(at 129.54 90.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0718b3ac-2c6c-4489-9297-171a716d3657")
 	)
 	(label "OUTN"
 		(at 21.59 82.55 180)
@@ -6054,17 +6036,6 @@
 			(justify right)
 		)
 		(uuid "0eaf3ae4-95d1-4924-91a4-e687cefe5d8c")
-	)
-	(label "Dn"
-		(at 95.25 38.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "101558e3-039e-4d94-aec9-efb973464bdf")
 	)
 	(label "IO15"
 		(at 339.09 151.13 270)
@@ -6197,6 +6168,17 @@
 			(justify left bottom)
 		)
 		(uuid "475a4a9f-2fd4-45a0-9b57-4a6ae0420efa")
+	)
+	(label "OUTA"
+		(at 129.54 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4dcea9c2-2833-4c2f-ba37-b73647f06c9b")
 	)
 	(label "OUTP"
 		(at 21.59 80.01 180)
@@ -6484,6 +6466,17 @@
 		)
 		(uuid "d90835d0-10c5-40ec-9b81-96287573ff4f")
 	)
+	(label "OUTB"
+		(at 129.54 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dbdec45f-41d8-4307-a0b0-aad9c43850fe")
+	)
 	(label "IO17"
 		(at 368.3 138.43 270)
 		(fields_autoplaced yes)
@@ -6527,6 +6520,17 @@
 			(justify right bottom)
 		)
 		(uuid "e45c8940-5dfb-44ee-bba8-ee6871bec4b9")
+	)
+	(label "Dn"
+		(at 95.25 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e8718351-4033-4f9b-aed0-c2b296c61e7b")
 	)
 	(label "OUTN"
 		(at 317.5 92.71 180)
@@ -7331,73 +7335,6 @@
 				(path "/a1dc64ca-b54e-4a93-b40f-f15a664195f8"
 					(reference "R1")
 					(unit 0)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 95.25 35.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "236a5fcd-2f32-4c8b-bd68-3a26125060b4")
-		(property "Reference" "#PWR06"
-			(at 99.06 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 91.44 35.5599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 95.25 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82087df3-ab2c-4659-9b8b-fdc892d31ac1")
-		)
-		(instances
-			(project "weiland-esp32"
-				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
-					(reference "#PWR06")
-					(unit 1)
 				)
 			)
 		)
@@ -10712,73 +10649,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 95.25 43.18 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a412c5ad-de8f-41da-8ed3-2b76a0699bb3")
-		(property "Reference" "#PWR031"
-			(at 88.9 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 91.44 43.1799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "788318ad-2afb-4e81-b2f5-e4608c45ec38")
-		)
-		(instances
-			(project "weiland-esp32"
-				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 27.94 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12684,6 +12554,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 95.25 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4ab29ab-f477-4b66-83f8-f76b07a57326")
+		(property "Reference" "#PWR031"
+			(at 88.9 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 38.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 95.25 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a61bd521-0755-4c2a-bf32-9c7cbae0ac9d")
+		)
+		(instances
+			(project "weiland-esp32"
+				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 199.39 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13167,6 +13104,73 @@
 			(project "weiland-esp32"
 				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 95.25 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdfacb35-5a0d-4909-8548-82479df072bf")
+		(property "Reference" "#PWR06"
+			(at 99.06 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 91.44 45.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 95.25 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a7eeff3c-2e15-42e3-818f-e5a3d073f203")
+		)
+		(instances
+			(project "weiland-esp32"
+				(path "/745a8d65-fa51-45f7-9665-7610e72f2a80"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
